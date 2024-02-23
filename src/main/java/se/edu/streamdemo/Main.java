@@ -44,6 +44,7 @@ public class Main {
     }
 
     public static void printDeadlines(ArrayList<Task> tasksData) {
+        System.out.println("Printing deadlines using iteration");
         for (Task t : tasksData) {
             if (t instanceof Deadline) {
                 System.out.println(t);
